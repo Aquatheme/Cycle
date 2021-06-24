@@ -1,1085 +1,830 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Premium Bootstrap 4 Landing Template" />
-    <meta name="keywords" content="agency, bootstrap, business, corporate, creative, landing page, marketing, multipurpose, product, product launch, responsive, software, startup, startup landing page" />
-    <meta name="author" content="AquaTheme" />
+    <title>CYCLE | Multipurpose HTML Landing Page</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="AquaTheme">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
-    <!-- Site Title -->
-    <title>Brelim - Responsive Bootstrap 4 Landing Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <!-- Site favicon -->
-    <link rel="shortcut icon" href="images/favicon.png">
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- MFP Css -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <!-- Material Icon -->
-    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <!-- Pe7 Icon -->
-    <link rel="stylesheet" type="text/css" href="css/pe-icon-7.css">
-
-    <!-- Custom  Css -->
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- FONTS USED -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 </head>
 
 <body>
-
-    <!--Navbar Start-->
-    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-        <div class="container">
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar fixed-top navbar-expand-xl navbar-header navbar-mobile">
+        <div class="navbar-container container">
             <!-- LOGO -->
-            <a class="logo navbar-brand" href="index.html">
-                <h2 class="Header-logo">Brelim</h2>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="mdi mdi-menu"></i>
+            <div class="navbar-brand">
+                <a class="navbar-brand-logo" href="#top">
+                    <h3 class="header-logo">CYCLE</h3>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
-                    <li class="nav-item active">
-                        <a href="#home" class="nav-link">Home</a>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center" href="#top">
+                            <p class="nav-link-menu">Home</p>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#features" class="nav-link">Features</a>
+                        <a class="nav-link hvr-underline-from-center" href="#featuresSection">
+                            <p class="nav-link-menu">Features</p>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#services" class="nav-link">Services</a>
+                        <a class="nav-link hvr-underline-from-center" href="#howSection">
+                            <p class="nav-link-menu">How It Works</p>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#client" class="nav-link">Client</a>
+                        <a class="nav-link hvr-underline-from-center" href="#testimonialsSection">
+                            <p class="nav-link-menu">Testimonials</p>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#team" class="nav-link">Team</a>
+                        <a class="nav-link hvr-underline-from-center" href="#pricingSection">
+                            <p class="nav-link-menu">Pricing</p>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#price" class="nav-link">Pricing</a>
+                        <a class="nav-link hvr-underline-from-center" href="#blogSection">
+                            <p class="nav-link-menu">News</p>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#faq" class="nav-link">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a class="nav-link hvr-underline-from-center" href="#contactSection">
+                            <p class="nav-link-menu">Support</p>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Navbar End -->
-
-    <!--Start Home-->
-    <section class="home-bg-img" id="home">
-        <div class="bg-overlay"></div>
-        <div class="home-table">
-            <div class="home-table-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="text-white text-center">
-                                <div>
-                                    <a href="http://vimeo.com/99025203" class="play-btn video_play mx-auto"><i class="mdi mdi-play text-center"></i></a>
-                                </div>
-                                <h1 class="header_title mb-0 mt-4">We Are Creative Landing Page</h1>
-                                <p class="header_subtitle pt-4 text-white mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout readable English.</p>
-                                <div class="header_btn">
-                                    <a href="#" class="btn btn-custom btn-rounded mt-4">Let's Get Started</a>
-                                </div>
+    <!-- SECTION LABEL -->
+    <div id="top"></div>
+    <div class="wrapper">
+        <!-- HEADER SECTION -->
+        <div id="header" class="header-section">
+            <div class="container header-section-container">
+                <div class="col-lg-6 col-md-12 header-section-content">
+                    <div class="header-title-section">
+                        <h1>Get creative with corporate simplicity</h1>
+                        <br>
+                        <p>Cycle is a refreshing and lightweight landing page template brought to you by AquaTheme.</p>
+                        <br>
+                        <br>
+                        <div class="header-title-all-btn-section">
+                            <div class="header-title-btn-section">
+                                <a class="theme-btn" href="#featuresSection">Learn more</a>
+                            </div>
+                            <div class="header-title-video-btn-section">
+                                <a href="#top" class="video-btn-subtitle">Watch video</a>
+                                <img src="images/play.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-8 col-sm-8 col-xs-10 col-10 header-img-section">
+                    <div class="header-img-card">
+                        <img src="images/f (3).png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION LABEL -->
+        <div id="featuresSection"></div>
+        <!-- FEATURES -->
+        <div class="features-section">
+            <div class="features-section-bg">
+            </div>
+            <div class="features-section-bg-two">
+            </div>
+            <div class="container features-section-container">
+                <div class="col-md-8 offset-md-2 features-title-block">
+                    <p class="section-subtitle">Our features</p>
+                    <h2 class="section-title">We build better business tools</h2>
+                </div>
+                <div class="col-md-10 offset-md-1 features-details-container">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 features-details-card-section">
+                        <div class="features-details-card">
+                            <div class="features-details-card-img-section">
+                                <img src="images/icon (1).png">
+                            </div>
+                            <div class="features-details-card-details-section">
+                                <h3>Fibre Speed</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                            </div>
+                            <div class="features-details-card-link">
+                                <a href="#howSection">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 features-details-card-section">
+                        <div class="features-details-card">
+                            <div class="features-details-card-img-section">
+                                <img src="images/icon (2).png">
+                            </div>
+                            <div class="features-details-card-details-section">
+                                <h3>Cloud Server</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing nonumy eirmod tempor.</p>
+                            </div>
+                            <div class="features-details-card-link">
+                                <a href="#howSection">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 features-details-card-section">
+                        <div class="features-details-card">
+                            <div class="features-details-card-img-section">
+                                <img src="images/icon (3).png">
+                            </div>
+                            <div class="features-details-card-details-section">
+                                <h3>Configured</h3>
+                                <p>Dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ut.</p>
+                            </div>
+                            <div class="features-details-card-link">
+                                <a href="#howSection">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 offset-md-1 features-details-container">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 features-details-card-section">
+                        <div class="features-details-card">
+                            <div class="features-details-card-img-section">
+                                <img src="images/icon (4).png">
+                            </div>
+                            <div class="features-details-card-details-section">
+                                <h3>Fibre Speed</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                            </div>
+                            <div class="features-details-card-link">
+                                <a href="#howSection">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 features-details-card-section">
+                        <div class="features-details-card">
+                            <div class="features-details-card-img-section">
+                                <img src="images/icon (5).png">
+                            </div>
+                            <div class="features-details-card-details-section">
+                                <h3>Cloud Server</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing nonumy eirmod tempor.</p>
+                            </div>
+                            <div class="features-details-card-link">
+                                <a href="#howSection">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 features-details-card-section">
+                        <div class="features-details-card">
+                            <div class="features-details-card-img-section">
+                                <img src="images/icon (6).png">
+                            </div>
+                            <div class="features-details-card-details-section">
+                                <h3>Configured</h3>
+                                <p>Dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ut.</p>
+                            </div>
+                            <div class="features-details-card-link">
+                                <a href="#howSection">Learn more</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--End Home-->
-
-    <!-- Start Great People -->
-    <section class="section bg-light section-mobile">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-4 mt-3 mb-3 mobile-section">
-                    <div class="logo_img">
-                        <img src="images/clients/1.png" alt="logo-img" class="mx-auto img-fluid d-block">
+        <!-- SECTION LABEL -->
+        <div id="howSection"></div>
+        <!-- HOW IT WORKS -->
+        <div class="how-it-works-section first">
+            <div class="container how-it-works-section-container">
+                <div class="col-lg-6 col-md-12 how-it-works-section-img-section">
+                    <div class="how-it-works-section-header-img-section">
+                        <img src="images/f (1).png">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-4 mt-3 mb-3 mobile-section">
-                    <div class="logo_img">
-                        <img src="images/clients/2.png" alt="logo-img" class="mx-auto img-fluid d-block">
+                <div class="col-lg-5 offset-lg-1 col-md-12 how-it-works-section-content-section">
+                    <div class="section-title-block">
+                        <p class="section-subtitle">How it works</p>
+                        <h2 class="section-title">Crafted with passion</h2>
+                        <p class="section-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.</p>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4 mt-3 mb-3 mobile-section">
-                    <div class="logo_img">
-                        <img src="images/clients/3.png" alt="logo-img" class="mx-auto img-fluid d-block">
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4 mt-3 mb-3 mobile-section">
-                    <div class="logo_img">
-                        <img src="images/clients/4.png" alt="logo-img" class="mx-auto img-fluid d-block">
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4 mt-3 mb-3 mobile-section">
-                    <div class="logo_img">
-                        <img src="images/clients/5.png" alt="logo-img" class="mx-auto img-fluid d-block">
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4 mt-3 mb-3 mobile-section">
-                    <div class="logo_img">
-                        <img src="images/clients/6.png" alt="logo-img" class="mx-auto img-fluid d-block">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Great People -->
-
-    <!-- Start Features -->
-    <section class="section" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize">Best <span class="font-weight-bold">Features</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4 vertical-content">
-                <div class="col-lg-6 col-md-6">
-                    <div class="mt-3">
-                        <div>
-                            <h2 class="features-heading">Create Something Totally & Amazing Professional Features.</h2>
-                            <div class="main-title-border"></div>
-                        </div>
-                        <div class="features">
-                            <div class="features-icon features-left">
-                                <i class="mdi mdi-check"></i>
-                            </div>
-                            <div class="features-desc">
-                                <h3 class="features-title font-weight-bold">Clean & Minimal Design</h3>
-                                <p class="features-sub-title pt-2 text-muted">You want customer to your store. Easily publish your coupans and when a user has manage to catch one of your coupens.</p>
-                            </div>
-                        </div>
-
-                        <div class="features">
-                            <div class="features-icon features-left">
-                                <i class="mdi mdi-check"></i>
-                            </div>
-                            <div class="features-desc">
-                                <h3 class="features-title font-weight-bold">Planing & Strategy</h3>
-                                <p class="features-sub-title pt-2 text-muted">You want customer to your store. Easily publish your coupans and when a user has manage to catch one of your coupens.</p>
-                            </div>
-                        </div>
-
-                        <div class="features">
-                            <div class="features-icon features-left">
-                                <i class="mdi mdi-check"></i>
-                            </div>
-                            <div class="features-desc">
-                                <h3 class="features-title font-weight-bold">Elegant & Modern Design</h3>
-                                <p class="features-sub-title pt-2 text-muted">You want customer to your store. Easily publish your coupans and when a user has manage to catch one of your coupens.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="mt-3">
-                        <img src="images/f (1).png" class="img-fluid mx-auto d-block" alt="" title="Features">
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4 vertical-content">
-                <div class="col-lg-6 col-md-6">
-                    <div class="mt-3">
-                        <img src="images/f (2).png" class="img-fluid mx-auto d-block" alt="" title="Features">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="mt-3">
-                        <div>
-                            <h2 class="features-heading">A digital web studio creating stunning & engaging online experiences.</h2>
-                            <div class="main-title-border"></div>
-                        </div>
-                        <div class="features">
-                            <div class="features-icon features-left">
-                                <i class="mdi mdi-check"></i>
-                            </div>
-                            <div class="features-desc">
-                                <h3 class="features-title font-weight-bold">Clean & Minimal Design</h3>
-                                <p class="features-sub-title pt-2 text-muted">You want customer to your store. Easily publish your coupans and when a user has manage to catch one of your coupens.</p>
-                            </div>
-                        </div>
-
-                        <div class="features">
-                            <div class="features-icon features-left">
-                                <i class="mdi mdi-check"></i>
-                            </div>
-                            <div class="features-desc">
-                                <h3 class="features-title font-weight-bold">Elegant & Modern Design</h3>
-                                <p class="features-sub-title pt-2 text-muted">You want customer to your store. Easily publish your coupans and when a user has manage to catch one of your coupens.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Features -->
-
-    <!-- Start Cta -->
-    <section class="section bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h2 class="font-weight-bold">Are You Ready To Enjoy? Get This Perfect Theme Now!</h2>
-                        <p class="text-muted mx-auto cta-desc mt-4 pt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <div class="mt-4 pt-3">
-                            <a href="#" class="btn btn-custom btn-rounded">Start Trial Free</a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Cta -->
-
-    <!-- Start Services -->
-    <section class="section" id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize">Best <span class="font-weight-bold">Services</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="services_boxes text-center mt-3">
-                        <div class="services_icon">
-                            <i class="pe-7s-display2 text-custom"></i>
-                        </div>
-                        <div class="services_desc mt-4">
-                            <h5 class="font-weight-bold">Graphic Design</h5>
-                            <p class="mt-3 text-muted mb-0">The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.</p>
-                            <a href="#" class="text-custom mt-3 d-inline-block">Read More <i class="mdi mdi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="services_boxes text-center mt-3">
-                        <div class="services_icon">
-                            <i class="pe-7s-paint text-custom"></i>
-                        </div>
-                        <div class="services_desc mt-4">
-                            <h5 class="font-weight-bold">Unlimited Color</h5>
-                            <p class="mt-3 text-muted mb-0">The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.</p>
-                            <a href="#" class="text-custom mt-3 d-inline-block">Read More <i class="mdi mdi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="services_boxes text-center mt-3">
-                        <div class="services_icon">
-                            <i class="pe-7s-graph1 text-custom"></i>
-                        </div>
-                        <div class="services_desc mt-4">
-                            <h5 class="font-weight-bold">Media Marketing</h5>
-                            <p class="mt-3 text-muted mb-0">The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.</p>
-                            <a href="#" class="text-custom mt-3 d-inline-block">Read More <i class="mdi mdi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="services_boxes text-center mt-3">
-                        <div class="services_icon">
-                            <i class="pe-7s-signal text-custom"></i>
-                        </div>
-                        <div class="services_desc mt-4">
-                            <h5 class="font-weight-bold">Unlimited Wifi</h5>
-                            <p class="mt-3 text-muted mb-0">The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.</p>
-                            <a href="#" class="text-custom mt-3 d-inline-block">Read More <i class="mdi mdi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="services_boxes text-center mt-3">
-                        <div class="services_icon">
-                            <i class="pe-7s-phone text-custom"></i>
-                        </div>
-                        <div class="services_desc mt-4">
-                            <h5 class="font-weight-bold">Responsive Design</h5>
-                            <p class="mt-3 text-muted mb-0">The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.</p>
-                            <a href="#" class="text-custom mt-3 d-inline-block">Read More <i class="mdi mdi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="services_boxes text-center mt-3">
-                        <div class="services_icon">
-                            <i class="pe-7s-tools text-custom"></i>
-                        </div>
-                        <div class="services_desc mt-4">
-                            <h5 class="font-weight-bold">Easy to customize</h5>
-                            <p class="mt-3 text-muted mb-0">The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.</p>
-                            <a href="#" class="text-custom mt-3 d-inline-block">Read More <i class="mdi mdi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Services -->
-
-    <!-- Start How It Work -->
-    <section class="section bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize">How It <span class="font-weight-bold">Work?</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="text-center work_box mt-3 p-3">
-                        <div class="work_number">1.</div>
-                        <div class="z-index position-relative">
-                            <div class="work_icon">
-                                <i class="pe-7s-network text-custom"></i>
-                            </div>
-                            <div class="work_content mt-4">
-                                <h5 class="font-weight-bold">Design & Devloping</h5>
-                                <p class="mt-3 text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="text-center work_box work_border_left mt-3 p-3">
-                        <div class="work_number">2.</div>
-                        <div class="z-index position-relative">
-                            <div class="work_icon">
-                                <i class="pe-7s-light text-custom"></i>
-                            </div>
-                            <div class="work_content mt-4">
-                                <h5 class="font-weight-bold">Testing Project</h5>
-                                <p class="mt-3 text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="text-center work_box work_border_left mt-3 p-3">
-                        <div class="work_number">3.</div>
-                        <div class="z-index position-relative">
-                            <div class="work_icon">
-                                <i class="pe-7s-cloud-upload text-custom"></i>
-                            </div>
-                            <div class="work_content mt-4">
-                                <h5 class="font-weight-bold">Publisher Project</h5>
-                                <p class="mt-3 text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="text-center work_box mt-3 p-3">
-                        <div class="work_number">4.</div>
-                        <div class="z-index position-relative">
-                            <div class="work_icon">
-                                <i class="pe-7s-network text-custom"></i>
-                            </div>
-                            <div class="work_content mt-4">
-                                <h5 class="font-weight-bold">Design & Devloping</h5>
-                                <p class="mt-3 text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="text-center work_box work_border_left mt-3 p-3">
-                        <div class="work_number">5.</div>
-                        <div class="z-index position-relative">
-                            <div class="work_icon">
-                                <i class="pe-7s-light text-custom"></i>
-                            </div>
-                            <div class="work_content mt-4">
-                                <h5 class="font-weight-bold">Testing Project</h5>
-                                <p class="mt-3 text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="text-center work_box work_border_left mt-3 p-3">
-                        <div class="work_number">6.</div>
-                        <div class="z-index position-relative">
-                            <div class="work_icon">
-                                <i class="pe-7s-cloud-upload text-custom"></i>
-                            </div>
-                            <div class="work_content mt-4">
-                                <h5 class="font-weight-bold">Publisher Project</h5>
-                                <p class="mt-3 text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End How It Work -->
-
-    <!-- Start Video -->
-    <section class="section bg-video">
-        <div class="bg-overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize text-white">Watch The <span class="font-weight-bold">Video</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-white sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-12">
-                    <div class="video-btn-white text-center">
-                        <a href="http://vimeo.com/99025203" class="play-btn-white video_play mx-auto">
-                            <i class="mdi mdi-play"></i><span>Watch Intro Video</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Video -->
-
-    <!-- Start Client -->
-    <section class="section bg-light" id="client">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize">Our <span class="font-weight-bold">Client</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi_boxes p-4 mt-3 rounded">
-                        <div class="testi_icon text-custom">
-                            <i class="mdi mdi-format-quote-open"></i>
-                        </div>
-                        <div class="mt-4">
-                            <p class="client_review text-muted mb-0 font-italic">" Aenean a congue sem. In vulputate iaculis nunc, sed scelerisque turpis condimentum id. Donec ut tortor bibendum posuere."</p>
-                            <h5 class="client_name mb-0 mt-4 font-weight-bold">- Barry Harris, Envato</h5>
-                            <p class="text-custom ml-2 pl-1 mb-0">Co-Founder</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi_boxes p-4 mt-3 rounded">
-                        <div class="testi_icon text-custom">
-                            <i class="mdi mdi-format-quote-open"></i>
-                        </div>
-                        <div class="mt-4">
-                            <p class="client_review text-muted mb-0 font-italic">" Aenean a congue sem. In vulputate iaculis nunc, sed scelerisque turpis condimentum id. Donec ut tortor bibendum posuere."</p>
-                            <h5 class="client_name mb-0 mt-4 font-weight-bold">- Walter Chavez, Envato</h5>
-                            <p class="text-custom ml-2 pl-1 mb-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi_boxes p-4 mt-3 rounded">
-                        <div class="testi_icon text-custom">
-                            <i class="mdi mdi-format-quote-open"></i>
-                        </div>
-                        <div class="mt-4">
-                            <p class="client_review text-muted mb-0 font-italic">" Aenean a congue sem. In vulputate iaculis nunc, sed scelerisque turpis condimentum id. Donec ut tortor bibendum posuere."</p>
-                            <h5 class="client_name mb-0 mt-4 font-weight-bold">- Ebony verty, Envato</h5>
-                            <p class="text-custom ml-2 pl-1 mb-0">Web Devloper</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi_boxes p-4 mt-3 rounded">
-                        <div class="testi_icon text-custom">
-                            <i class="mdi mdi-format-quote-open"></i>
-                        </div>
-                        <div class="mt-4">
-                            <p class="client_review text-muted mb-0 font-italic">" Aenean a congue sem. In vulputate iaculis nunc, sed scelerisque turpis condimentum id. Donec ut tortor bibendum posuere."</p>
-                            <h5 class="client_name mb-0 mt-4 font-weight-bold">- Ebony verty, Envato</h5>
-                            <p class="text-custom ml-2 pl-1 mb-0">Web Devloper</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi_boxes p-4 mt-3 rounded">
-                        <div class="testi_icon text-custom">
-                            <i class="mdi mdi-format-quote-open"></i>
-                        </div>
-                        <div class="mt-4">
-                            <p class="client_review text-muted mb-0 font-italic">" Aenean a congue sem. In vulputate iaculis nunc, sed scelerisque turpis condimentum id. Donec ut tortor bibendum posuere."</p>
-                            <h5 class="client_name mb-0 mt-4 font-weight-bold">- Ebony verty, Envato</h5>
-                            <p class="text-custom ml-2 pl-1 mb-0">Web Devloper</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi_boxes p-4 mt-3 rounded">
-                        <div class="testi_icon text-custom">
-                            <i class="mdi mdi-format-quote-open"></i>
-                        </div>
-                        <div class="mt-4">
-                            <p class="client_review text-muted mb-0 font-italic">" Aenean a congue sem. In vulputate iaculis nunc, sed scelerisque turpis condimentum id. Donec ut tortor bibendum posuere."</p>
-                            <h5 class="client_name mb-0 mt-4 font-weight-bold">- Ebony verty, Envato</h5>
-                            <p class="text-custom ml-2 pl-1 mb-0">Web Devloper</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Client -->
-
-    <!-- Start Team -->
-    <section class="section" id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize">Meet Our <span class="font-weight-bold">Team</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team_box rounded text-center mt-3 p-4">
-                        <img src="images/team/team-1.jpg" alt="" class="rounded-circle img-fluid mx-auto d-block img-thumbnail">
-                        <div class="mt-3">
-                            <h5 class="mb-0 font-weight-bold">@Scott Ross</h5>
-                            <p class="text-muted team_work">CEO/Founder</p>
-                            <a class="follow_btn" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">Scott Follow Click Me</a>
-                            <div class="collapse" id="collapseExample1">
-                                <div class="mt-3">
-                                    <ul class="list-inline team_social mt-4 mb-0 text-center">
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                                    </ul>
+                    <div class="how-it-works-section-content-details">
+                        <ul class="how-it-works-section-content-details-ul">
+                            <li class="how-it-works-section-content-details-li">
+                                <div class="how-it-works-section-content-details-li-section">
+                                    <h3>Market Analysis</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy sed diam.</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team_box rounded text-center mt-3 p-4">
-                        <img src="images/team/team-2.jpg" alt="" class="rounded-circle img-fluid mx-auto d-block img-thumbnail">
-                        <div class="mt-3">
-                            <h5 class="mb-0 font-weight-bold">@Kevin Strauser</h5>
-                            <p class="text-muted team_work">CTO/Co-Founder</p>
-                            <a class="follow_btn" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">Kevin Follow Click Me</a>
-                            <div class="collapse" id="collapseExample2">
-                                <div class="mt-3">
-                                    <ul class="list-inline team_social mt-4 mb-0 text-center">
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                                    </ul>
+                            </li>
+                            <li class="how-it-works-section-content-details-li how-it-works-section-content-details-li-option">
+                                <div class="how-it-works-section-content-details-li-section">
+                                    <h3>Social Integration</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy sed diam.</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team_box rounded text-center mt-3 p-4">
-                        <img src="images/team/team-3.jpg" alt="" class="rounded-circle img-fluid mx-auto d-block img-thumbnail">
-                        <div class="mt-3">
-                            <h5 class="mb-0 font-weight-bold">@Teresa Morrison</h5>
-                            <p class="text-muted team_work">Web Designer</p>
-                            <a class="follow_btn" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">Teresa Follow Click Me</a>
-                            <div class="collapse" id="collapseExample3">
-                                <div class="mt-3">
-                                    <ul class="list-inline team_social mt-4 mb-0 text-center">
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team_box rounded text-center mt-3 p-4">
-                        <img src="images/team/team-4.jpg" alt="" class="rounded-circle img-fluid mx-auto d-block img-thumbnail">
-                        <div class="mt-3">
-                            <h5 class="mb-0 font-weight-bold">@Eunice Spaulding</h5>
-                            <p class="text-muted team_work">Web Developer</p>
-                            <a class="follow_btn" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">Eunice Follow Click Me</a>
-                            <div class="collapse" id="collapseExample4">
-                                <div class="mt-3">
-                                    <ul class="list-inline team_social mt-4 mb-0 text-center">
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team_box rounded text-center mt-3 p-4">
-                        <img src="images/team/team-4.jpg" alt="" class="rounded-circle img-fluid mx-auto d-block img-thumbnail">
-                        <div class="mt-3">
-                            <h5 class="mb-0 font-weight-bold">@Eunice Spaulding</h5>
-                            <p class="text-muted team_work">Web Developer</p>
-                            <a class="follow_btn" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">Eunice Follow Click Me</a>
-                            <div class="collapse" id="collapseExample5">
-                                <div class="mt-3">
-                                    <ul class="list-inline team_social mt-4 mb-0 text-center">
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team_box rounded text-center mt-3 p-4">
-                        <img src="images/team/team-3.jpg" alt="" class="rounded-circle img-fluid mx-auto d-block img-thumbnail">
-                        <div class="mt-3">
-                            <h5 class="mb-0 font-weight-bold">@Eunice Spaulding</h5>
-                            <p class="text-muted team_work">Web Developer</p>
-                            <a class="follow_btn" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">Eunice Follow Click Me</a>
-                            <div class="collapse" id="collapseExample6">
-                                <div class="mt-3">
-                                    <ul class="list-inline team_social mt-4 mb-0 text-center">
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team_box rounded text-center mt-3 p-4">
-                        <img src="images/team/team-2.jpg" alt="" class="rounded-circle img-fluid mx-auto d-block img-thumbnail">
-                        <div class="mt-3">
-                            <h5 class="mb-0 font-weight-bold">@Eunice Spaulding</h5>
-                            <p class="text-muted team_work">Web Developer</p>
-                            <a class="follow_btn" data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample">Eunice Follow Click Me</a>
-                            <div class="collapse" id="collapseExample7">
-                                <div class="mt-3">
-                                    <ul class="list-inline team_social mt-4 mb-0 text-center">
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team_box rounded text-center mt-3 p-4">
-                        <img src="images/team/team-1.jpg" alt="" class="rounded-circle img-fluid mx-auto d-block img-thumbnail">
-                        <div class="mt-3">
-                            <h5 class="mb-0 font-weight-bold">@Eunice Spaulding</h5>
-                            <p class="text-muted team_work">Web Developer</p>
-                            <a class="follow_btn" data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample">Eunice Follow Click Me</a>
-                            <div class="collapse" id="collapseExample8">
-                                <div class="mt-3">
-                                    <ul class="list-inline team_social mt-4 mb-0 text-center">
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Team -->
-
-    <!-- Start Price -->
-    <section class="section bg-light" id="price">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize">Our <span class="font-weight-bold">Pricing</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="mt-3 price_box rounded bg-white">
-                        <div class="price_name text-center">
-                            <h4 class="mb-0 font-weight-bold">Single Use</h4>
-                        </div>
-                        <div class="plan_price text-center">
-                            <h1 class="mb-0 text-custom">$29</h1>
-                            <h6 class="text-muted font-weight-bold">Per Month</h6>
-                        </div>
-                        <div class="price_divider"></div>
-                        <div class="price_features">
-                            <p><i class="mdi mdi-check icon-success"></i> Bandwidth: <span class="font-weight-bold">1GB</span></p>
-                            <p><i class="mdi mdi-check icon-success"></i> Onlinespace: <span class="font-weight-bold">500MB</span></p>
-                            <p><i class="mdi mdi-close icon-danger"></i> Support: <span class="font-weight-bold">No</span></p>
-                            <p><i class="mdi mdi-check icon-success"></i> Domain: <span class="font-weight-bold">1</span></p>
-                            <p><i class="mdi mdi-close icon-danger"></i> Hidden Fees: <span class="font-weight-bold">No</span></p>
-                        </div>
-                        <div class="text-center mt-5">
-                            <a href="#" class="btn btn-outline-custom">Join Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="mt-3 price_box rounded bg-white">
-                        <div class="price_name text-center">
-                            <h4 class="mb-0 font-weight-bold">Multiple Use</h4>
-                        </div>
-                        <div class="plan_price text-center">
-                            <h1 class="mb-0 text-custom">$39</h1>
-                            <h6 class="text-muted font-weight-bold">Per Month</h6>
-                        </div>
-                        <div class="price_divider"></div>
-                        <div class="price_features">
-                            <p><i class="mdi mdi-check icon-success"></i> Bandwidth: <span class="font-weight-bold">2GB</span></p>
-                            <p><i class="mdi mdi-check icon-success"></i> Onlinespace: <span class="font-weight-bold">1GB</span></p>
-                            <p><i class="mdi mdi-check icon-success"></i> Support: <span class="font-weight-bold">Yes</span></p>
-                            <p><i class="mdi mdi-check icon-success"></i> Domain: <span class="font-weight-bold">3</span></p>
-                            <p><i class="mdi mdi-close icon-danger"></i> Hidden Fees: <span class="font-weight-bold">No</span></p>
-                        </div>
-                        <div class="text-center mt-5">
-                            <a href="#" class="btn btn-custom">Join Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="mt-3 price_box rounded bg-white">
-                        <div class="price_name text-center">
-                            <h4 class="mb-0 font-weight-bold">Extended Use</h4>
-                        </div>
-                        <div class="plan_price text-center">
-                            <h1 class="mb-0 text-custom">$49</h1>
-                            <h6 class="text-muted font-weight-bold">Per Month</h6>
-                        </div>
-                        <div class="price_divider"></div>
-                        <div class="price_features">
-                            <p><i class="mdi mdi-check icon-success"></i> Bandwidth: <span class="font-weight-bold">3GB</span></p>
-                            <p><i class="mdi mdi-check icon-success"></i> Onlinespace: <span class="font-weight-bold">2GB</span></p>
-                            <p><i class="mdi mdi-check icon-success"></i> Support: <span class="font-weight-bold">Yes</span></p>
-                            <p><i class="mdi mdi-check icon-success"></i> Domain: <span class="font-weight-bold">Unlimited</span></p>
-                            <p><i class="mdi mdi-close icon-danger"></i> Hidden Fees: <span class="font-weight-bold">No</span></p>
-                        </div>
-                        <div class="text-center mt-5">
-                            <a href="#" class="btn btn-outline-custom">Join Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Price -->
-
-    <!-- Start FAQ -->
-    <section class="section" id="faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize">Frequently Asked <span class="font-weight-bold">Questions</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="faq_boxes p-3">
-                        <div class="faq_number">
-                            <h2 class="font-weight-bold text-custom mb-0">01.</h2>
-                        </div>
-                        <div class="faq_details mt-2">
-                            <p class="text-muted small_title mb-0">For User</p>
-                            <h5 class="font-weight-bold">When can be used?</h5>
-                            <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="faq_boxes p-3">
-                        <div class="faq_number">
-                            <h2 class="font-weight-bold text-custom mb-0">02.</h2>
-                        </div>
-                        <div class="faq_details mt-2">
-                            <p class="text-muted small_title mb-0">For User</p>
-                            <h5 class="font-weight-bold"> What is Item Support?</h5>
-                            <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="faq_boxes p-3">
-                        <div class="faq_number">
-                            <h2 class="font-weight-bold text-custom mb-0">03.</h2>
-                        </div>
-                        <div class="faq_details mt-2">
-                            <p class="text-muted small_title mb-0">For User</p>
-                            <h5 class="font-weight-bold">Where Is My Purchase Code?</h5>
-                            <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="faq_boxes p-3">
-                        <div class="faq_number">
-                            <h2 class="font-weight-bold text-custom mb-0">04.</h2>
-                        </div>
-                        <div class="faq_details mt-2">
-                            <p class="text-muted small_title mb-0">For Advertiser</p>
-                            <h5 class="font-weight-bold">How to Contact an Author?</h5>
-                            <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="faq_boxes p-3">
-                        <div class="faq_number">
-                            <h2 class="font-weight-bold text-custom mb-0">05.</h2>
-                        </div>
-                        <div class="faq_details mt-2">
-                            <p class="text-muted small_title mb-0">For Advertiser</p>
-                            <h5 class="font-weight-bold">What is Lorem Ipsum?</h5>
-                            <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="faq_boxes p-3">
-                        <div class="faq_number">
-                            <h2 class="font-weight-bold text-custom mb-0">06.</h2>
-                        </div>
-                        <div class="faq_details mt-2">
-                            <p class="text-muted small_title mb-0">For Advertiser</p>
-                            <h5 class="font-weight-bold"> Why use Lorem Ipsum?</h5>
-                            <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End FAQ -->
-
-    <!-- START CTA -->
-    <section class="section bg-cta-img">
-        <div class="bg-overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center text-white">
-                        <h2 class="font-weight-bold">Let's get started with Brezon</h2>
-                        <p class="mx-auto cta-desc mt-4 pt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <div class="mt-4 pt-3">
-                            <a href="#" class="btn btn-custom btn-rounded">Get Started</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END CTA -->
-
-    <!-- Start Contact -->
-    <section class="section" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h3 class="mb-0 text-capitalize">Get In <span class="font-weight-bold">Tuch</span></h3>
-                        <div class="main-title-border mx-auto"></div>
-                        <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-4">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-4">
-                            <div class="text-center mt-3">
-                                <div>
-                                    <i class="pe-7s-call text-custom h2"></i>
-                                </div>
-                                <div class="mt-2">
-                                    <p class="mb-0 font-weight-bold">Call Us On</p>
-                                    <p class="text-muted">+985 123 7856</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-4">
-                            <div class="text-center mt-3">
-                                <div>
-                                    <i class="pe-7s-mail text-custom h2"></i>
-                                </div>
-                                <div class="mt-2">
-                                    <p class="mb-0 font-weight-bold">Email Us At</p>
-                                    <p class="text-muted">exmaple@gmail.com</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-4">
-                            <div class="text-center mt-3">
-                                <div>
-                                    <i class="pe-7s-map text-custom h2"></i>
-                                </div>
-                                <div class="mt-2">
-                                    <p class="mb-0 font-weight-bold">Visit Office</p>
-                                    <p class="text-muted">391, Broaddus Avenue, Benton.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="custom-form">
-                        <form id="contact-form" action="php/mail.php" method="POST">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group mt-2">
-                                        <input name="name" id="name" type="text" class="form-control" placeholder="Your Name*" required>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group mt-2">
-                                        <input name="email" id="email" type="email" class="form-control" placeholder="Your Email*" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject.." required />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2">
-                                        <textarea name="message" id="comments" rows="6" class="form-control" placeholder="Your message..."></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <button class="btn btn-custom" id="submit" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                            <div class="form-message text-center mt-3"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Contact -->
-
-    <!-- Map Start -->
-    <div id="contact-map" style="height: 400px;"></div>
-
-    <!-- Start Footer -->
-    <footer class="footer_detail">
-        <div class="container">
-            <div class="row pt-5 pb-5">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h2 class="footer-logo">Brelim</h2>
-                    </div>
-                    <div class="footer_menu">
-                        <ul class="mb-0 list-inline text-center mt-4">
-                            <li class="list-inline-item mr-0"><a href="#" class="text-muted">Terms &amp; Condition</a></li>
-                            <li class="list-inline-item mr-0"><a href="#" class="text-muted">Privacy Policy</a></li>
-                            <li class="list-inline-item mr-0"><a href="#" class="text-muted">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="fot_bor"></div>
-            <div class="row pt-4 pb-4">
-                <div class="col-lg-12">
-                    <div class="float-left float_none">
-                        <p class="copy-rights text-muted mb-0">2021 &copy; Brelim. Design by AquaTheme.</p>
-                    </div>
-                    <div class="float-right float_none">
-                        <ul class="list-inline fot_social mb-0">
-                            <li class="list-inline-item"><a href="" class="social-icon text-muted"><i class="mdi mdi-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="" class="social-icon text-muted"><i class="mdi mdi-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="" class="social-icon text-muted"><i class="mdi mdi-linkedin"></i></a></li>
-                            <li class="list-inline-item"><a href="" class="social-icon text-muted"><i class="mdi mdi-google-plus"></i></a></li>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- End Footer -->
+        <!-- SECTION LABEL -->
+        <div id="companiesSection"></div>
+        <!-- COMPANIES -->
+        <div class="companies-section">
+            <div class="container companies-section-container">
+                <div class="col-lg-3 col-md-12 companies-section-title">
+                    <h2>Trusted by 1,000+ companies worldwide</h2>
+                </div>
+                <div class="col-lg-9 col-md-12 companies-section-logos">
+                    <div class="col-md-2 col-sm-6 col-xs-12 companies-section-logo-card">
+                        <img src="images/client (1).png">
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 companies-section-logo-card">
+                        <img src="images/client (2).png">
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 companies-section-logo-card">
+                        <img src="images/client (3).png">
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 companies-section-logo-card">
+                        <img src="images/client (4).png">
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 companies-section-logo-card">
+                        <img src="images/client (5).png">
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 companies-section-logo-card">
+                        <img src="images/client (2).png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION LABEL -->
+        <div id="howSecondSection"></div>
+        <!-- HOW IT WORKS -->
+        <div class="how-it-works-section second">
+            <div class="container how-it-works-section-container">
+                <div class="col-lg-5 col-md-12 how-it-works-section-content-section">
+                    <div class="section-title-block">
+                        <p class="section-subtitle">How it works</p>
+                        <h2 class="section-title">Capture your visitors</h2>
+                        <p class="section-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.</p>
+                    </div>
+                    <div class="how-it-works-section-content-details">
+                        <ul class="how-it-works-section-content-details-ul">
+                            <li class="how-it-works-section-content-details-li">
+                                <div class="how-it-works-section-content-details-li-section">
+                                    <h3>Market Analysis</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy sed diam.</p>
+                                </div>
+                            </li>
+                            <li class="how-it-works-section-content-details-li how-it-works-section-content-details-li-option">
+                                <div class="how-it-works-section-content-details-li-section">
+                                    <h3>Social Integration</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy sed diam.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-md-12 how-it-works-section-img-section how-it-works-section-img-section-two">
+                    <div class="how-it-works-section-header-img-section">
+                        <img src="images/f (2).png">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Back To Top -->
-    <a href="#" class="back_top"> <i class="pe-7s-angle-up"> </i> </a>
+        <!-- SECTION LABEL -->
+        <div id="testimonialsSection"></div>
+        <!-- TESTIMONIALS -->
+        <div class="testimonials-section">
+            <div class="testimonials-section-bg">
+            </div>
+            <div class="container testimonials-section-container">
+                <div class="col-md-6 offset-md-3 section-title-block testimonials-title-block">
+                    <p class="section-subtitle">Testimonials</p>
+                    <h2 class="section-title">Our customer reviews</h2>
+                </div>
+                <div class="container testimonials-slider-container">
+                    <!-- Start Owl Carousel-->
+                    <div class="owl-carousel owl-theme testimonials-carousel">
+                        <!-- Testimonial Item -1 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (1).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>Jimmy McDrew</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Item -2 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (2).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>Richard Anderson</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Item -3 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (3).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>Matthew Robinson</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Item -4 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (4).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>Angus Rogerson</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Item -5 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (1).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>George Kimberly</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Item -6 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (2).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>Florence Mitcham</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Item -7 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (3).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>Frederick Grahams</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Item -8 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (4).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>Harry Kitchen</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Item -9 -->
+                        <div class="item">
+                            <div class="testimonials-card-section">
+                                <div class="testimonials-card-img-section">
+                                    <img src="images/testi (1).jpg">
+                                </div>
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card-details">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                                        <h3>Chris Engles</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Testimonial Item  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION LABEL -->
 
-    <!-- Javascript -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrollspy.min.js"></script>
-    <!-- MFP JS -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- Google Map-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn8JZIgY8P-IBTdpKthAxRRibi7doOZzk"></script>
-    <!-- Ajax Contact -->
-    <script src="js/ajax.contact.js"></script>
-    <!-- Custom Js   -->
+        <div id="pricingSection"></div>
+        <!-- PRICING -->
+        <div id="pricing" class="pricing-section">
+            <div class="container pricing-section-container">
+                <div class="col-md-10 offset-md-1 pricing-title-block">
+                    <p class="section-subtitle">Our pricing</p>
+                    <h2 class="section-title">Choose your plan</h2>
+                    <p class="section-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br>invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="container pricing-card-container">
+                    <div class="col-md-12 pricing-card-btn-container">
+                        <div class="pricing-card-btn-section">
+                            <div class="pricing-btn-card">
+                                <div id="monthly" class="pricing-btn monthly-pricing-btn">
+                                    Monthly
+                                </div>
+                                <div id="yearly" class="pricing-btn yearly-pricing-btn active">
+                                    Yearly
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container pricing-plans-card-container">
+                        <div class="col-lg-4 col-md-6 col-sm-10 monthly-plan pricing-plans-card-section">
+                            <div class="pricing-ribbon pricing-ribbon-top-left"><span>Basic</span></div>
+                            <div class="pricing-plans-card">
+                                <div class="pricing-plans-card-img-section">
+                                    <img src="assets/images/basic.png">
+                                </div>
+                                <div class="pricing-plans-card-content">
+                                    <h3 class="pricing-plans-card-price">&dollar;19</h3>
+                                    <p class="pricing-plans-card-plan">Basic</p>
+                                    <p class="pricing-plans-card-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                                </div>
+                                <div class="pricing-plans-card-btn-section">
+                                    <a href="#pricingSection" class="theme-btn">Signup now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 monthly-plan pricing-plans-card-section">
+                            <div class="pricing-ribbon pricing-ribbon-top-left"><span>Standard</span></div>
+                            <div class="pricing-plans-card featured">
+                                <div class="pricing-plans-card-img-section">
+                                    <img src="assets/images/premium.png">
+                                </div>
+                                <div class="pricing-plans-card-content">
+                                    <h3 class="pricing-plans-card-price">&dollar;49</h3>
+                                    <p class="pricing-plans-card-plan">Premium</p>
+                                    <p class="pricing-plans-card-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                                </div>
+                                <div class="pricing-plans-card-btn-section">
+                                    <a href="#pricingSection" class="theme-btn">Signup now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 monthly-plan pricing-plans-card-section">
+                            <div class="pricing-ribbon pricing-ribbon-top-left"><span>Premiun</span></div>
+                            <div class="pricing-plans-card">
+                                <div class="pricing-plans-card-img-section">
+                                    <img src="assets/images/corporate.png">
+                                </div>
+                                <div class="pricing-plans-card-content">
+                                    <h3 class="pricing-plans-card-price">&dollar;79</h3>
+                                    <p class="pricing-plans-card-plan">Corporate</p>
+                                    <p class="pricing-plans-card-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                                </div>
+                                <div class="pricing-plans-card-btn-section">
+                                    <a href="#pricingSection" class="theme-btn">Signup now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 yearly-plan pricing-plans-card-section">
+                            <div class="pricing-ribbon pricing-ribbon-top-left"><span>Silver</span></div>
+                            <div class="pricing-plans-card">
+                                <div class="pricing-plans-card-img-section">
+                                    <img src="assets/images/basic.png">
+                                </div>
+                                <div class="pricing-plans-card-content">
+                                    <h3 class="pricing-plans-card-price">&dollar;199</h3>
+                                    <p class="pricing-plans-card-plan">Basic</p>
+                                    <p class="pricing-plans-card-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                                </div>
+                                <div class="pricing-plans-card-btn-section">
+                                    <a href="#pricingSection" class="theme-btn">Signup now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 yearly-plan pricing-plans-card-section">
+                            <div class="pricing-ribbon pricing-ribbon-top-left"><span>Gold</span></div>
+                            <div class="pricing-plans-card featured">
+                                <div class="pricing-plans-card-img-section">
+                                    <img src="assets/images/premium.png">
+                                </div>
+                                <div class="pricing-plans-card-content">
+                                    <h3 class="pricing-plans-card-price">&dollar;499</h3>
+                                    <p class="pricing-plans-card-plan">Premium</p>
+                                    <p class="pricing-plans-card-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                                </div>
+                                <div class="pricing-plans-card-btn-section">
+                                    <a href="#pricingSection" class="theme-btn">Signup now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 yearly-plan pricing-plans-card-section">
+                            <div class="pricing-ribbon pricing-ribbon-top-left"><span>Daimond</span></div>
+                            <div class="pricing-plans-card">
+                                <div class="pricing-plans-card-img-section">
+                                    <img src="assets/images/corporate.png">
+                                </div>
+                                <div class="pricing-plans-card-content">
+                                    <h3 class="pricing-plans-card-price">&dollar;799</h3>
+                                    <p class="pricing-plans-card-plan">Corporate</p>
+                                    <p class="pricing-plans-card-details">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                                </div>
+                                <div class="pricing-plans-card-btn-section">
+                                    <a href="#pricingSection" class="theme-btn">Signup now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION LABEL -->
+        <div id="blogSection"></div>
+        <!-- BLOG -->
+        <div id="blog" class="blog-section">
+            <div class="container blog-section-container">
+                <div class="col-md-12 blog-title-block">
+                    <p class="section-subtitle">Recent news</p>
+                    <h2 class="section-title">Our latest updates</h2>
+                </div>
+                <div class="container blog-cards-container">
+                    <div class="col-lg-6 col-md-10 col-sm-12 col-xs-12 col-12 blog-card-section">
+                        <div class="blog-card">
+                            <div class="col-md-12 blog-card-subdiv">
+                                <div class="col-3 blog-card-img-section">
+                                    <img src="images/f (1).png">
+                                </div>
+                                <div class="col-9 blog-card-content-section">
+                                    <div class="blog-card-timeline">
+                                        <p>Updates - August 22, 2020</p>
+                                    </div>
+                                    <div class="blog-card-title">
+                                        <h3><a href="#blogSection">Say a little something about your company here</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 blog-card-body-details">
+                                <p><a href="#blogSection">You can direct your these links to your external blogs or press releases if you like. Just add your external hyperlink to the above post title and this description. It couldn't be any easier.</a></p>
+                                <div class="blog-card-footer">
+                                    <div class="blog-card-footer-section">
+                                        <img src="images/user.png">
+                                        <a href="#blogSection">Maggie Smith</a>
+                                    </div>
+                                    <div class="blog-card-footer-section">
+                                        <img src="images/comments.png">
+                                        <a href="#blogSection">Comment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-10 col-sm-12 col-xs-12 col-12 blog-card-section">
+                        <div class="blog-card">
+                            <div class="col-md-12 blog-card-subdiv">
+                                <div class="col-3 blog-card-img-section">
+                                    <img src="images/f (2).png">
+                                </div>
+                                <div class="col-9 blog-card-content-section">
+                                    <div class="blog-card-timeline">
+                                        <p>Marketing - August 22, 2020</p>
+                                    </div>
+                                    <div class="blog-card-title">
+                                        <h3><a href="#blogSection">Use this space to post some recent company news</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 blog-card-body-details">
+                                <p><a href="#blogSection">You can direct your these links to your external blogs or press releases if you like. Just add your external hyperlink to the above post title and this description. It couldn't be any easier.</a></p>
+                                <div class="blog-card-footer">
+                                    <div class="blog-card-footer-section">
+                                        <img src="images/user.png">
+                                        <a href="#blogSection">Smith Parky</a>
+                                    </div>
+                                    <div class="blog-card-footer-section">
+                                        <img src="images/comments.png">
+                                        <a href="#blogSection">Comment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-10 col-sm-12 col-xs-12 col-12 blog-card-section">
+                        <div class="blog-card">
+                            <div class="col-md-12 blog-card-subdiv">
+                                <div class="col-3 blog-card-img-section">
+                                    <img src="images/f (2).png">
+                                </div>
+                                <div class="col-9 blog-card-content-section">
+                                    <div class="blog-card-timeline">
+                                        <p>Marketing - August 22, 2020</p>
+                                    </div>
+                                    <div class="blog-card-title">
+                                        <h3><a href="#blogSection">Use this space to post some recent company news</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 blog-card-body-details">
+                                <p><a href="#blogSection">You can direct your these links to your external blogs or press releases if you like. Just add your external hyperlink to the above post title and this description. It couldn't be any easier.</a></p>
+                                <div class="blog-card-footer">
+                                    <div class="blog-card-footer-section">
+                                        <img src="images/user.png">
+                                        <a href="#blogSection">Markie Jhon</a>
+                                    </div>
+                                    <div class="blog-card-footer-section">
+                                        <img src="images/comments.png">
+                                        <a href="#blogSection">Comment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-10 col-sm-12 col-xs-12 col-12 blog-card-section">
+                        <div class="blog-card">
+                            <div class="col-md-12 blog-card-subdiv">
+                                <div class="col-3 blog-card-img-section">
+                                    <img src="images/f (3).png">
+                                </div>
+                                <div class="col-9 blog-card-content-section">
+                                    <div class="blog-card-timeline">
+                                        <p>Marketing - August 22, 2020</p>
+                                    </div>
+                                    <div class="blog-card-title">
+                                        <h3><a href="#blogSection">Use this space to post some recent company news</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 blog-card-body-details">
+                                <p><a href="#blogSection">You can direct your these links to your external blogs or press releases if you like. Just add your external hyperlink to the above post title and this description. It couldn't be any easier.</a></p>
+                                <div class="blog-card-footer">
+                                    <div class="blog-card-footer-section">
+                                        <img src="images/user.png">
+                                        <a href="#blogSection">Jhon Parky</a>
+                                    </div>
+                                    <div class="blog-card-footer-section">
+                                        <img src="images/comments.png">
+                                        <a href="#blogSection">Comment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION LABEL -->
+        <div id="contactSection"></div>
+        <section class="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 blog-title-block">
+                        <p class="section-subtitle">Contact</p>
+                        <h2 class="section-title">Contact Our Team</h2>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="custom-form">
+                            <form id="contact-form" action="php/mail.php" method="POST">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-group mt-2">
+                                            <input name="name" id="name" type="text" class="form-control" placeholder="Your Name*" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-group mt-2">
+                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your Email*" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject.." required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <textarea name="message" id="comments" rows="6" class="form-control" placeholder="Your message..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button class="theme-btn" id="submit" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                                <div class="form-message text-center mt-3"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <div class="footer-section">
+            <div class="container footer-section-container">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12 footer-section-div">
+                    <h3 class="footer-logo">CYCLE</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque eos magni sit excepturi ducimus. Quaerat corrupti explicabo, eveniet, aliquam et, autem saepe consectetur sed debitis qui enim harum esse adipisci!</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 col-12 footer-section-div">
+                    <h3>Quick links</h3>
+                    <ul class="footer-section-ul">
+                        <li><a class="hvr-underline-from-center" href="#featuresSection">Features</a></li>
+                        <li><a class="hvr-underline-from-center" href="#howSection">How It Works</a></li>
+                        <li><a class="hvr-underline-from-center" href="#testimonialsSection">Client Testimonials</a></li>
+                        <li><a class="hvr-underline-from-center" href="#pricingSection">Pricing</a></li>
+                        <li><a class="hvr-underline-from-center" href="#blogSection">Recent News</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 col-12 footer-section-div">
+                    <h3>Our features</h3>
+                    <ul class="footer-section-ul">
+                        <li><a class="hvr-underline-from-center" href="#featuresSection">Fibre Speed</a></li>
+                        <li><a class="hvr-underline-from-center" href="#featuresSection">Cloud Servers</a></li>
+                        <li><a class="hvr-underline-from-center" href="#featuresSection">Congifured</a></li>
+                        <li><a class="hvr-underline-from-center" href="#howSection">Market Analysis</a></li>
+                        <li><a class="hvr-underline-from-center" href="#howSection">Integration</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-12 footer-section-div">
+                    <!-- SECTION LABEL -->
+                    <div id="supportSection"></div>
+                    <!-- SUPPORT -->
+                    <h3>Support</h3>
+                    <ul class="footer-section-ul">
+                        <li><a href="mailto:mail@domain.com">mail@domain.com</a></li>
+                        <li><a href="#top">+44 (0) 207 654 3210</a></li>
+                        <li><a href="#top">Suite 1, No. 45<br>Stations Way Avenue<br>London SW1 1AA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION LABEL -->
+        <div id="copyrightSection"></div>
+        <!-- COPYRIGHT -->
+        <div class="copyright-section">
+            <div class="container copyright-section-container">
+                <p>&copy; 2020 <a class="hvr-underline-from-center" href="#" target="_blank" title="AquaTheme">AquaTheme</a>&trade;. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+        <!-- Back To Top -->
+        <a href="#" class="back_top"> <span>Top</span></a>
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
-
 </body>
-
 </html>
