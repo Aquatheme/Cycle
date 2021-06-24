@@ -1,0 +1,18 @@
+ Brelim- Responsive Bootstrap 4 Landing Template 
+Brelim-is a multi purpose landing page Template is an ideal layout for Business Startups, web studio and innovative organizations. Responsive in view of Bootstrap v4.1.3. This is one page for setting your data. All records and code has been efficient and pleasantly remarked for simple to alter.
+
+Features:
+
+    Based on Twitter Bootstrap 4.1.3
+    15 Different Home Pages
+    Built with HTML5 & CSS3
+    Font Icons
+    Google Fonts
+    Easy to Customize
+    Clean code
+    Free Images
+    W3 Valid 100%
+    Browser Compatibility
+    Fully Customizable
+    Modern Design
+    And much more…
